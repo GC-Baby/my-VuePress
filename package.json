@@ -1,0 +1,17 @@
+{
+  "name": "my-VuePress",
+  "version": "1.0.0",
+  "description": "个人学习博客",
+  "repository": "https://github.com/GC-Baby/my-VuePress.git",
+  "author": "GcBaby",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "dev:cache": "vuepress dev docs --no-cache"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
